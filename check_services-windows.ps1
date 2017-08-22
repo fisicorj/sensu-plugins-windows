@@ -1,5 +1,5 @@
 ﻿$servicesArray = Get-WmiObject Win32_Service | Where {$_.StartMode -eq 'Auto'}
-$servicesToIgnore = "Remote Registry","Software Protection","Cloud Initialization Service","Shell Hardware Detection","Group Policy Client","Windows Modules Installer","User Access Logging Service","Snow Inventory Client"
+$servicesToIgnore = "You services","exceptions"
 $message = ""
 $exitCode = 0
 

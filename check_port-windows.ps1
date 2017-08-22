@@ -1,4 +1,4 @@
-﻿$server = 'xxx.xxx.xxx.xxx'
+﻿$server = 'ip_here'
 $portToCheck = 'port_here'
 $message = ""
 $exitCode = ""
