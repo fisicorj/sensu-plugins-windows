@@ -1,4 +1,4 @@
-﻿$patch = "\\fsb2w01\INFRACORP.N3SO"
+﻿$patch = "share here"
 $share_test = Test-Path -Path $patch
 $date = $Date = Get-Date -format "dd-MMM-yyyy HH:mm"
 $message = ""
